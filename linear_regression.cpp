@@ -28,7 +28,7 @@ float linear_regression(const vector<vector<int>>& arr, int x, int n) {
         sum_x_sq += arr[i][0] * arr[i][0];
     }
 
-    // dividing the values to obtain the mean s: 
+    // dividing the values to obtain the mean s
     float x_bar = sum_x / n;
     float y_bar = sum_y / n;
     float xy_bar = sum_xy / n;
@@ -36,6 +36,8 @@ float linear_regression(const vector<vector<int>>& arr, int x, int n) {
 
     float m = (xy_bar - x_bar * y_bar) / (x_sq_bar - x_bar * x_bar);
     float c = y_bar - m * x_bar;
+    cout << "the slope is " << m << endl;
+    cout << "the intercept is " << c << endl;
 
     return m * x + c;
 }
