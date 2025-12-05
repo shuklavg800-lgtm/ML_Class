@@ -49,7 +49,53 @@ import math
 # print(type(val))
  
 #  practice 
-a=int(input("enter the val of a"))
-b=int(input("enter the val of b"))
-# sum=print("the sum of a and b is ",(a+b))
-print(sum(a,b))
+# a=int(input("enter the val of a"))
+# b=int(input("enter the val of b"))
+# # sum=print("the sum of a and b is ",(a+b))
+# print(sum(a,b))
+
+
+# # string functions
+
+# name = input("Enter the name: ")
+
+# # printing the length of the name
+# print("length of the name",len(name))
+# # Capitalize the first letter
+# print("Capitalized:", name.capitalize())
+
+# # Swap case (uppercase ↔ lowercase)
+# print("Swapcase:", name.swapcase())
+
+# # Count occurrences of 'o'
+# print("Count of 'o':", name.count("o"))
+
+# # Find the index of 'P' (returns -1 if not found)
+# print("Find 'P':", name.find("P"))
+
+
+# conditional statements
+
+# indentation acts as the curly braces of cpp or C on Java, use a tab or 4 spaces
+
+# age=int(input("Enter ur age"))
+# if (age>18):
+#     print("eligible to vote")
+# elif age>16:
+#     print("Get ur ids done to be eligible in nexxt 2 yrs")
+# else:
+#     print("not eligible")
+
+
+# str="print"
+# if (len(str)):
+#     print("true")
+
+# a=10
+# b=print("prince")
+# print(a+b) # returns typeError since the datatype of b is None
+ 
+
+# marks=int(input("Enter ur marks"))
+# if (marks>90):
+#   print("A grade")
