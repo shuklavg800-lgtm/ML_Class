@@ -99,3 +99,9 @@ import math
 # marks=int(input("Enter ur marks"))
 # if (marks>90):
 #   print("A grade")
+
+n=int(input("Enter a number"))
+a=1
+while a<=10:
+    print(a*n)
+    a=a+1
